@@ -101,12 +101,15 @@ http://localhost:5000 → Your live backend URL.
 
 🖼️ 7. Dashboard Screenshots
 
-(Add your screenshots here)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bec68b05-3d92-4fb5-94b9-deb5c36282be" />
+<img src="https://github.com/user-attachments/assets/bcc68b05-3492-4fb5-94b9-deb5c362882e" alt="Dashboard Screenshot"/>
 
 /screenshots
   - dashboard.png
   - charts.png
   - tables.png
+
+    
 👤 Author
 
 Lakshita Goyal
