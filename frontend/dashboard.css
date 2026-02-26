@@ -1,0 +1,123 @@
+/* MAIN CONTAINER */
+.dashboard-container {
+  padding: 30px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+/* TITLE */
+.dashboard-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* FILTERS WRAPPER */
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.filter-section label {
+  font-weight: 600;
+  color: #444;
+}
+
+.filter-section input,
+.filter-section select {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+/* ALL CHARTS GRID */
+.charts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* INDIVIDUAL CHART CARD */
+.chart-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+}
+
+.chart-card:hover {
+  box-shadow: 0px 4px 14px rgba(0,0,0,0.18);
+}
+
+/* NO DATA MESSAGE */
+.no-data {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  color: gray;
+}
+.chart-box {
+  background: #fffefe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.dashboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.dashboard-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+/* Dashboard Main Container */
+.dashboard-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 950px;
+  margin: auto;
+}
+
+/* Title */
+.dashboard-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Chart Wrapper (Responsive) */
+.chart-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* -------------------------------------------------
+   RESPONSIVE (Mobile)
+-------------------------------------------------- */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+
+  .dashboard-title {
+    text-align: center;
+  }
+
+  .chart-wrapper {
+    max-width: 100%;
+  }
+}
